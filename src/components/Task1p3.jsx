@@ -19,7 +19,7 @@ const cards = headersTable.map((headingTitle, index) => {
             ),
             React.createElement(
                 'a',
-                {className : 'div-a'},
+                {className : 'div-a', href: '#', target: '_blank'},
                 'cos'
             )
         );
